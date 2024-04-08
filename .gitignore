@@ -1,6 +1,12 @@
 # ML models
 *.pt
 
+# Images
+*.jpg
+
+# Mac Specific Config files
+*.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -38,6 +44,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+imagenet_classes.txt
 
 # Unit test / coverage reports
 htmlcov/
